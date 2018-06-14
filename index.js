@@ -13,4 +13,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+console.log(`Running on http://${HOST}:${PORT}\n`);
+console.log(`Redis location: ${process.env.REDIS_SERVICE_HOST}:${process.env.REDIS_SERVICE_PORT}\n`);
