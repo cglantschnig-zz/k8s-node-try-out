@@ -9,3 +9,7 @@ Little node app, to see how to link a two container to each other using kubernet
 
     // destroys the deployments and services
     sh ./scripts/destroy.sh
+
+    // replaces the node container
+    telepresence --swap-deployment node-deployment --expose 8080
+    @minikube: npm start
