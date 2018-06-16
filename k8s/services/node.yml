@@ -8,5 +8,5 @@ spec:
     app: node
   ports:
     - name: http
-      port: 6379
+      port: 8080
   type: NodePort

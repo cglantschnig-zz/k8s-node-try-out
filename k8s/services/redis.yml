@@ -8,5 +8,5 @@ spec:
     app: redis
   ports:
     - name: http
-      port: 8080
+      port: 6379
   type: ClusterIP
